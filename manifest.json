@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Atatürk'ün Kitapları",
+    "version": "1.0",
+    "description": "Her tıklamada Atatürk'ün Yazdığı Kitap Önerilecek.",
+    "icons": {
+      "128": "icon128.png"
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
